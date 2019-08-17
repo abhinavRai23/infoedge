@@ -1,0 +1,16 @@
+{
+    "data" : [
+        {
+            "name": "Delhi",
+            "count": 576
+        },
+        {
+            "name": "Gurgaon",
+            "count": 450
+        },
+        {
+            "name": "Noida",
+            "count": 379
+        }
+    ]
+}

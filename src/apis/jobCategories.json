@@ -1,0 +1,20 @@
+{
+    "data":[
+        {
+            "type": "Sales",
+            "count": "261"
+        },
+        {
+            "type": "Marketing",
+            "count": "156"
+        },
+        {
+            "type": "Finance",
+            "count": "86"
+        },
+        {
+            "type": "It",
+            "count": "52"
+        }
+    ]
+}

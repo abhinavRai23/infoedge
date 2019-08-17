@@ -1,0 +1,300 @@
+$primary-color:#009788;
+$secondary-color: $primary-color;
+$link-color: $primary-color;
+@import 'materialize-css/sass/materialize.scss';
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,600,700&display=swap');
+
+*{
+    font-family: 'Quicksand', sans-serif;
+}
+
+.profile-section{
+    padding-top: 20px;
+    overflow: auto;
+    background-color: $primary-color;
+    color: white;
+    box-shadow: 0px 5px #e6e6e6;
+    .name{
+        padding-top: 15px;
+        padding-bottom: 5px;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .base-info{
+        opacity: 0.8;
+        font-size: 12px;
+    }
+    .profile-pic{
+        text-align: right;
+        img{
+            height: 75px;
+            width: 75px;
+            border-radius: 50%;
+            border: 2px solid #fff;
+        }
+    }
+    .search-wrapper {
+        position: relative;
+        margin-top: 10px;
+        color: #666;
+        transition: margin .25s ease;
+        background-color: white;
+        border-radius: 5px;
+        input{
+            color: #666;
+            display: block;
+            font-size: 16px;
+            font-weight: 300;
+            width: 100%;
+            height: 48px;
+            margin: 0;
+            box-sizing: border-box;
+            padding: 0 15px;
+            border: 0;
+        }
+        i.fa-search {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            cursor: pointer;
+        }
+    }
+}
+
+.flex-slider{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    margin-left: 20px;
+    >div{
+        padding: 0 5px;
+    }
+}
+
+.jobs-section{
+    padding: 20px 0;
+    color: #315a56;
+    .row{
+        margin-bottom: 0px;
+    }
+    a{
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    .img-type{
+        padding-top: 5px;
+    }
+    .job-type{
+        color: #222;
+        font-weight: 700;
+        font-size: 16px;
+    }
+    .more-info{
+        font-size: 12px;
+        font-weight: 600;
+    }
+    .view-more{
+        padding-top:10px;
+        font-size: 13px;
+        text-align: right;
+    }
+    .cards > div{
+        min-width: 95%;
+        @media screen and (min-width: 900px) {
+            max-width: 400px;
+        }
+    }
+    .card{
+        margin-top: 15px;
+        box-shadow: -1px 3px 4px 4px #ebf0f3;
+        padding: 15px 10px;
+        .job-name{
+            .job-title{
+                font-size: 16px;
+                color: #333;
+                font-weight: 700;
+            }
+            .company-name{
+                font-size: 13px;
+                font-weight: 600;
+            }
+        }
+        .company-logo{
+            text-align: right;
+            img{
+                height: 50px;
+                width: 50px;
+                border-radius: 5px;
+            }
+        }
+        .job-details{
+            font-weight: 500;
+            padding-top: 10px;
+            font-size: 15px;
+            color: #555;
+            i{
+                width: 20px;
+                text-align: center;
+            }
+            .post-time{
+                color: #315a56;
+                padding-top: 5px;
+                font-size: 12px;
+                text-align: right;
+            }
+        }
+    }
+
+    .badges{
+        padding-top: 15px;
+        padding-bottom: 5px;
+        margin-left: 0px;
+        div{
+            color: #333;
+            font-size: 15px;
+            border: 1px solid #ddd;
+            border-radius: 15px;
+            padding: 5px 10px;
+            margin-right: 10px;
+            white-space: nowrap;
+        }
+    }
+}
+
+.job-categories{
+    max-width: 1280px;
+    margin: 0 auto;
+    @media only screen and (min-width: 993px){
+        width: 70%;
+    }
+    background-color: #ffb957;
+    padding: 20px 0;
+    .title{
+        color: #333;
+        font-size: 16px;
+        font-weight: 700;
+        padding-left: 20px;
+    }
+    .filter{
+        padding-top: 10px;
+        .card{
+            border-radius: 5px;
+            min-width: 100px;
+            padding: 10px 15px;
+            box-shadow: -1px 2px 3px 2px #23232326;
+            .category-name{
+                font-size: 15px;
+                font-weight: 600;
+                white-space: nowrap;
+            }
+            .no-of-jobs{
+                font-size: 13px;
+                font-weight: 500;
+                color: #315a56;
+            }
+        }
+    }
+}
+
+.whatsapp{
+    border: 1px solid #111;
+    border-radius: 5px;
+    box-shadow: -1px 3px 2px 2px #00978826;
+    .row{
+        margin-bottom: 0px;
+    }
+    padding: 20px;
+    .msg{
+        color: #111;
+        font-size: 22px;
+        font-weight: 700;
+    }
+    .support-text{
+        padding: 5px 0 15px 0;
+        font-weight: 15px;
+        color: #315a56;
+        font-weight: bold;
+    }
+    .btn{
+        border-radius: 15px;
+        white-space: nowrap;
+        height: 25px;
+        line-height: 25px;
+        padding: 0 10px;
+        font-size: 13px;
+    }
+    img{
+        text-align: center;
+        width: 100%;
+        height: auto;
+        padding-top: 20px;
+    }
+}
+
+.city-section{
+    padding-top: 20px;
+    color: #315a56;
+    .row{
+        margin-bottom: 0px;
+    }
+    a{
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    .job-type{
+        color: #222;
+        font-weight: 700;
+        font-size: 16px;
+    }
+    .view-more{
+        font-size: 13px;
+        text-align: right;
+    }
+    .flex-slider{
+        padding-top: 10px;
+        >div{
+            margin-right: 10px;
+        }
+        img{
+            border-radius: 5px;
+            width: 120px;
+            height: 80px;
+        }
+        .info{
+            .name{
+                font-size: 15px;
+                font-weight: 700;
+                color: #222;
+            }
+            .jobs-count{
+                font-size: 13px;
+                font-weight: 500;
+            }
+        }
+    }
+}
+
+.footer-fixed{
+    margin-top: 10px;
+    padding: 10px 0;
+    border-top: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0px -3px #d9f0ed85;
+    display: flex;
+    justify-content: space-around;
+    div{
+        text-align: center;
+        color: #777;
+        i{
+            font-size: 21px;
+        }
+        .text{
+            font-size: 11px;
+            text-transform: uppercase;
+        }
+        &.active{
+            color: #009788;
+            font-weight: 600;
+        }
+    }
+}

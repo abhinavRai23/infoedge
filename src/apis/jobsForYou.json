@@ -1,0 +1,25 @@
+{
+    "title": "Jobs For You",
+    "icon": "icons/Jobs For You.svg",
+    "supportText": "Based on Your",
+    "type": "Preferences",
+    "filters": ["Back Office", "Front Office", "Sales", "office", "Finance", "IT", "Health"],
+    "jobs": [
+        {
+            "title": "Front office Executive/1-2 Yrs/Communication Expert",
+            "company": "Global Sevices PVT. LTD.",
+            "location": "Sector 31, Gurugram. Haryana",
+            "compensation": "10,000 - 22,500 per month",
+            "jobPostingDate": "2019/08/14",
+            "img": ""
+        },
+        {
+            "title": "Back office Executive/1-2 Yrs/Communication Expert",
+            "company": "WNS Global Sevices PVT. LTD.",
+            "location": "Sector 30, Gurugram. Haryana",
+            "compensation": "8,000 - 22,500 per month",
+            "jobPostingDate": "2019/08/11",
+            "img": "company2.jpg"
+        }
+    ]
+}
